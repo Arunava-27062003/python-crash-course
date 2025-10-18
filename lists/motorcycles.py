@@ -23,4 +23,15 @@ print(motorcycles)
 del motorcycles[3]
 print(motorcycles)
 
-"""pg 81 python crash coourse"""
+"""The pop() method removes the last item in a list, but it lets you work with that item
+after removing it."""
+
+last_owned = motorcycles.pop()
+print(f"The last owned is {last_owned.title()}.")
+
+"""Removing an item by value"""
+
+new_list = ['apple', 'banana', 'orange', 'mango', 'pineapple']
+print(new_list)
+new_list.remove('orange')
+print(new_list)
