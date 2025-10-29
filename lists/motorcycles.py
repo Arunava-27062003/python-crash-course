@@ -35,3 +35,6 @@ new_list = ['apple', 'banana', 'orange', 'mango', 'pineapple']
 print(new_list)
 new_list.remove('orange')
 print(new_list)
+
+print(motorcycles)
+print(motorcycles[-1])
