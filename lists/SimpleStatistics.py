@@ -5,4 +5,4 @@ ans = min(data_digits)
 print(ans)
 print(sum(data_digits))
 
-"""page 107"""
+"""page 105 List comprehensions"""

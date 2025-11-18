@@ -25,5 +25,3 @@ print(new_cars)
 
 """finding the length of a list """
 print(len(cars))
-
-"""pg 89"""
