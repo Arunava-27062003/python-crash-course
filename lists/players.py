@@ -23,6 +23,8 @@ print(players[-3:]) # start at the third-last item and continue to the end of th
 
 print(team[-1:])
 
-"""
-page 108, Looping Through a Slice
-"""
+"""looping through a slice"""
+
+print("First Three players in my team")
+for player in players[:3]:
+    print(player.title())
